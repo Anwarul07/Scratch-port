@@ -16,27 +16,53 @@
             <div class="left">Md Anwarul Haque</div>
             <div class="right">
                 <ul class="center list-none">
-                    <a href="/"><li class="mx20">Home</li></a>
-                    <a href="/"><li class="mx20">About</li></a>
-                    <a href="/"><li class="mx20">Services</li></a>
-                    <a href="/"><li class="mx20">Contact Us</li></a>
-                    <a href="/"><li class="mx20">Projects</li></a>
+                    <a href="/">
+                        <li class="mx20">Home</li>
+                    </a>
+                    <a href="/">
+                        <li class="mx20">About</li>
+                    </a>
+                    <a href="/">
+                        <li class="mx20">Services</li>
+                    </a>
+                    <a href="/">
+                        <li class="mx20">Contact Us</li>
+                    </a>
+                    <a href="/">
+                        <li class="mx20">Projects</li>
+                    </a>
                 </ul>
             </div>
         </nav>
     </header>
+
     <main>
         <section class="around parent-sec my20">
             <div class="sec-left p10">
-                <h4>Hi I Am <span class="purple">Md Anwarul Haque</span></h4>
-                <p> and I am a passionate</p>
-                <p><span class="purple">Web devlopper</span></p>
+                <h4>Hi I Am <span class="purple">Anwar</span></h4>
+                <p>I am a passionate</p>
+                <!-- <p><span >Web devlopper</span></p> -->
+                <span class="purple" id="element"></span>
             </div>
             <div class="sec-right p10">
                 <img src="/files/bg.png" alt="">
             </div>
         </section>
+        <hr>
+        <section class="sec2 m-auto">
+            <h3 class="my20">Past Experiance</h3>
+        </section>
+
     </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Devlopper', ' Full Stack Devlopper'],
+            typeSpeed: 50,
+        });
+    </script>
+
 </body>
 
 </html>

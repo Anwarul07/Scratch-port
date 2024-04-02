@@ -42,3 +42,13 @@ nav .left {
 .sec-right img {
   width: 80%;
 }
+
+.sec2{
+  max-width: 85vw;
+}
+main hr{
+  max-width: 85vw;
+  margin: auto;
+  border:0px;height: 1.4px;
+  background-color: rgb(80, 57, 142);
+}
