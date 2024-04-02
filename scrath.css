@@ -13,18 +13,19 @@
 body {
   background-color: var(--black);
   color: var(--white);
+  min-height: 100vh;
 }
 nav {
   background-color: rgb(51, 51, 189);
   height: 60px;
   align-items: center;
 }
-nav ul a{
+nav ul a {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
-nav ul a:hover{
+nav ul a:hover {
   color: rgb(129, 129, 170);
 }
 nav .left {
@@ -34,21 +35,79 @@ nav .left {
   width: 35%;
 }
 .parent-sec {
-  padding: 40px 0;
+  margin-top: 40px;
 }
 .sec-left {
+  margin-top: 120px;
   font-size: 2rem;
+}
+.sec-right {
+  margin-top: 50px;
 }
 .sec-right img {
   width: 80%;
 }
-
-.sec2{
-  max-width: 85vw;
-}
-main hr{
+main hr {
   max-width: 85vw;
   margin: auto;
-  border:0px;height: 1.4px;
+  border: 0px;
+  height: 1.4px;
   background-color: rgb(80, 57, 142);
+  margin-bottom: 10px;
+}
+.sec2 {
+  max-width: 75vw;
+  height: 80vh;
+}
+.sec2 span {
+  color: rgb(181, 179, 179);
+}
+.sec2 hr {
+  max-width: 80vw;
+  margin: auto;
+  border: 0px;
+  height: 1.4px;
+  background-color: rgb(192, 191, 196);
+  margin: 20px auto;
+}
+
+.box {
+  background-color: white;
+  width: 77vw;
+  margin: auto;
+  height: 1px;
+  margin-top: 50px;
+  display: flex;
+}
+.verticle {
+  width: 1px;
+  height: 4rem;
+  background-color: aliceblue;
+  color: white;
+  margin: 0px 95px;
+}
+.img-dev {
+  width: 25px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.skil {
+  position: relative;
+  top: 40px;
+  left: 3px;
+  font-size: 16px;
+  width: 170px;
+}
+.vert-text {
+  position: relative;
+  top: 48px;
+  left: 0px;
+  width: 150px;
+  font-size: 14px;
+  color: rgb(151, 148, 148);
+}
+
+footer {
+  text-align: center;
 }
