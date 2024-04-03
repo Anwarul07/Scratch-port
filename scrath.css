@@ -16,23 +16,20 @@ body {
   min-height: 100vh;
 }
 nav {
-  background-color: rgb(51, 51, 189);
+  background-color: rgb(88 86 227);
   height: 60px;
   align-items: center;
 }
-nav ul a {
+a {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
-nav ul a:hover {
+a:hover {
   color: rgb(129, 129, 170);
 }
 nav .left {
   font-size: 1.25rem;
-}
-.parent-sec div {
-  width: 35%;
 }
 .parent-sec {
   margin-top: 40px;
@@ -43,6 +40,7 @@ nav .left {
 }
 .sec-right {
   margin-top: 50px;
+   width: 35%;
 }
 .sec-right img {
   width: 80%;
@@ -52,12 +50,12 @@ main hr {
   margin: auto;
   border: 0px;
   height: 1.4px;
-  background-color: rgb(80, 57, 142);
+  background-color: rgb(88 86 227);
   margin-bottom: 10px;
 }
 .sec2 {
   max-width: 75vw;
-  height: 80vh;
+  height: 60vh;
 }
 .sec2 span {
   color: rgb(181, 179, 179);
@@ -110,4 +108,27 @@ main hr {
 
 footer {
   text-align: center;
+  background-color: #323131;
+}
+footer ul a {
+  display: flex;
+  align-items: start;
+}
+footer .first {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.btn{
+  padding: 2px 4px;
+  background-color: black;
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.btn:hover{
+  color:whitesmoke ;
+  background-color: rgb(88 86 227);
 }

@@ -45,8 +45,12 @@
   list-style: none;
 }
 .purple {
-  color: rgb(117, 76, 229);
+  color: rgb(117, 83, 211);
 }
 .m-auto {
   margin: auto;
 }
+.grey {
+  color: rgb(181, 179, 179);
+}
+
